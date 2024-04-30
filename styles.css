@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .watch-container {
+    position: relative;
+    height: 100%;
+  }
+  
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .watch {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .display {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .watch button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+  

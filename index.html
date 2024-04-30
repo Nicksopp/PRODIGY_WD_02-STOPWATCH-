@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wristwatch</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="watch-container">
+    <div class="background">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg" alt="Mountain Background">
+    </div>
+    <div class="watch">
+      <div class="display">00:00:00</div>
+      <button id="startBtn" onclick="startStopwatch()">Start</button>
+      <button id="pauseBtn" onclick="pauseStopwatch()">Pause</button>
+      <button id="resetBtn" onclick="resetStopwatch()">Reset</button>
+      <button id="lapBtn" onclick="recordLap()">Lap</button>
+    </div>
+  </div>
+  <audio id="clickSound" src="click.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
+
